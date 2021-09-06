@@ -1,372 +1,608 @@
 <!DOCTYPE html>
 <html lang="en">
-	
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Gallery | Parivar Hospital</title>
-	
-    <!-- css -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Gallery | Parivar Hospital</title>
+
+	<!-- css -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="plugins/cubeportfolio/css/cubeportfolio.min.css">
 	<link href="css/nivo-lightbox.css" rel="stylesheet" />
 	<link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
 	<link href="css/owl.carousel.css" rel="stylesheet" media="screen" />
-    <link href="css/owl.theme.css" rel="stylesheet" media="screen" />
+	<link href="css/owl.theme.css" rel="stylesheet" media="screen" />
 	<link href="css/animate.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet">
-   
+	<link href="css/style.css" rel="stylesheet">
+
 	<!-- boxed bg -->
 	<link id="bodybg" href="bodybg/bg1.css" rel="stylesheet" type="text/css" />
 	<!-- template skin -->
 	<link id="t-colors" href="color/default.css" rel="stylesheet">
 
-    <!---- slider --->
-  
+	<!---- slider --->
+
 </head>
 <style>
-	.padd
-	{
-		margin-top:15px;
+	.padd {
+		margin-top: 15px;
 		margin-bottom: 15px;
 	}
-	
-	.centered
-	{
-		
-		 position:absolute ;
-		  top: 50%;
-		  left: 50%;
-		  transform: translate(-50%, -50%);
+
+	.centered {
+
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
+
 	.zoom {
-    transition: transform .6s;
-    width: 100%;
-    height:auto;
-    color: white;
-      font-size: 18px;	
-    
-    }
+		transition: transform .6s;
+		width: 100%;
+		height: auto;
+		color: white;
+		font-size: 18px;
 
-    .zoom:hover {
-    transform: scale(1.1);
-    color:orange; 
-    box-shadow: 0 6px 5px 0 rgba(0,0,0,.19);
-    } 
+	}
 
-    .gallery-bg{
-    		background-image: url("img/doctor_donate.jpg"); 
-    		height: 300px;
-    		
-    		background-repeat: no-repeat; 
-    		padding-top: 200px;
-    	}
+	.zoom:hover {
+		transform: scale(1.1);
+		color: orange;
+		box-shadow: 0 6px 5px 0 rgba(0, 0, 0, .19);
+	}
+
+	.gallery-bg {
+		background-image: url("img/doctor_donate.jpg");
+		height: 300px;
+
+		background-repeat: no-repeat;
+		padding-top: 200px;
+	}
 </style>
+
 <body>
-	
-  <section id="page-top" data-spy="scroll" data-target=".navbar-custom">
-  	<div id="wrapper">
-	
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-		<div class="top-area">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-6 col-md-6">
-					<p class="bold text-left">24 X 7 Open Emergency Services </p>
-					</div>
-					<div class="col-sm-6 col-md-6">
-					<p class="bold text-right">Call us now 0751 4032700</p>
+
+	<section id="page-top" data-spy="scroll" data-target=".navbar-custom">
+		<div id="wrapper">
+
+			<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+				<div class="top-area">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-6 col-md-6">
+								<p class="bold text-left">24 X 7 Open Emergency Services </p>
+							</div>
+							<div class="col-sm-6 col-md-6">
+								<p class="bold text-right">Call us now 0751 4032700</p>
+							</div>
+						</div>
 					</div>
 				</div>
+				<div class="container navigation">
+
+					<div class="navbar-header page-scroll">
+						<button type="button" class="navbar-toggle" data-toggle="collapse"
+							data-target=".navbar-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+						<a class="navbar-brand" href="index.html">
+							<img src="img/logo.png" alt="" width="200" height="50" />
+						</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">Home</a></li>
+							<li class="dropdown">
+								<a href="aboutus.html" class="dropdown-toggle" data-toggle="dropdown">About Us <b
+										class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="aboutus.html" class="sub">ABOUT US</a></li>
+									<li class="divider"></li>
+									<li><a href="about-hospital.html">ABOUT HOSPITAL</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="our.html" class="dropdown-toggle" data-toggle="dropdown">Our Specialities <b
+										class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="our.html" class="sub">MEDICAL SERVICES</a></li>
+									<li><a href="our.html">SURGICAL
+											SERVICES</a></li>
+									<li><a href="our.html">CRITICAL
+											CARE UNITES</a></li>
+									<li><a href="our.html">IMAGING
+											/ RADIOLOGY SERVICES</a></li>
+									<li><a href="our.html">LABORATORY
+											SERVICES </a></li>
+									<li><a href="our.html">OTHER
+											SERVICES</a></li>
+									<li><a href="our.html">SUPPORTIVE
+											SERVICES</a></li>
+									<li><a href="our.html">HEALTH
+											CHECKUPS</a></li>
+
+
+									<li class="divider"></li>
+									<li><a href="our.html">24 Hrs
+											EMERGRNCY &amp; TRAUMA
+										</a></li>
+
+								</ul>
+
+							</li>
+							<li class="active"><a href="gallery.html">Gallery</a></li>
+
+							<li><a href="career.html">Career</a></li>
+
+
+							<li><a href="footer">Contact</a></li>
+
+						</ul>
+						</li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container -->
+			</nav>
+	</section>
+
+	<div class="container-fluid gallery-bg text-center">
+
+		<button class="btn btn-info"><span style="font-size: 24px;">Gallery<span></button>
+
+	</div>
+	<!---cont bg end--->
+	<br>
+	<div class="container text-center">
+		<div class="row">
+
+			<div class="col-md-6">
+
+
+
+
+			</div>
+
+
+			<div class="col-md-6">
+
 			</div>
 		</div>
-        <div class="container navigation">
-		
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/logo.png" alt="" width="200" height="50" />
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-			  <ul class="nav navbar-nav">
-				<li><a href="index.html">Home</a></li>
-				<li class="dropdown">
-          			<a href="aboutus.html" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a>
-          			<ul class="dropdown-menu">
-            			<li><a href="aboutus.html" class="sub">ABOUT US</a></li>
-            			<li class="divider"></li>
-            			<li><a href="about-hospital.html">ABOUT HOSPITAL</a></li>
-          			</ul>
-        		</li>
-				<li class="dropdown">
-					<a href="our.html" class="dropdown-toggle"
-						data-toggle="dropdown">Our Specialities <b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li><a href="our.html"
-								class="sub">MEDICAL SERVICES</a></li>
-						<li><a href="our.html">SURGICAL
-								SERVICES</a></li>
-						<li><a href="our.html">CRITICAL
-								CARE UNITES</a></li>
-						<li><a href="our.html">IMAGING
-								/ RADIOLOGY SERVICES</a></li>
-						<li><a href="our.html">LABORATORY
-								SERVICES </a></li>
-						<li><a href="our.html">OTHER
-								SERVICES</a></li>
-						<li><a href="our.html">SUPPORTIVE
-								SERVICES</a></li>
-						<li><a href="our.html">HEALTH
-								CHECKUPS</a></li>
-						
-
-						<li class="divider"></li>
-						<li><a href="our.html">24 Hrs
-								EMERGRNCY &amp; TRAUMA
-							</a></li>
-
-					</ul>
-
-				</li>
-				<li class="active"><a href="gallery.html">Gallery</a></li>
-				
-				<li><a href="career.html">Career</a></li>
-				
-				
-					<li><a href="footer">Contact</a></li>
-					
-				  </ul>
-				</li>
-			  </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-  </section>
-
-  <div class="container-fluid gallery-bg text-center">
-
-    <button class="btn btn-info"><span style="font-size: 24px;">Gallery<span></button>
-  		
-  </div><!---cont bg end--->
- <br>
-  <div class="container text-center">
-  	<div class="row">
-  		
-  		 <div class="col-md-6">
-  			
-			       
-
-					
-	     </div>
-	  			
-  		
-  		<div class="col-md-6">
-  			
-  		</div>
-  	</div>
-  </div>
+	</div>
 
 
-  <div class="container text-center" style="padding: 40px;">
-  	<button class="btn btn-warning">
-  		<span>Image Gallery</span>
-  	</button>
-  	<hr style="height: 2px; color: #000000;">
-  	<div class="row">
- 			
-  			<div class="col-md-3 card">
-  				<a href="" ><img src="img/testing.png" class="zoom">
-  				    <div class="card-content" style="padding: 20px;">
-  					<!-- <h4 class="card-head">hello</h4>	 -->
-  				    </div>
-  				</a>  				
-  			</div><!--col--end-->
+	<div class="container text-center" style="padding: 40px;">
+		<button class="btn btn-warning">
+			<span>Image Gallery</span>
+		</button>
+		<hr style="height: 2px; color: #000000;">
+		<div class="row">
 
-  			<div class="col-md-3 card">
-  				<a href=""><img src="img/scan2.png" class="zoom">
-  					<div class="card-content" style="padding: 20px;">
-  					<!-- <h4 class="card-head">hello</h4>  					 -->
-  					</div>
-  				</a>
-  			</div><!--col--end-->
+			<div class="col-md-3 card">
+				<a href=""><img src="img/testing.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>	 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
 
-  			<div class="col-md-3 card">
-  				<a href=""><img src="img/facility.png" class="zoom" width="200">
-  					<div class="card-content" style="padding: 20px;">
-  					<!-- <h4 class="card-head">hello</h4>  					 -->
-  					</div>
-  				</a>
-  			</div><!--col--end-->
+			<div class="col-md-3 card">
+				<a href=""><img src="img/scan2.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>  					 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
 
-  			<div class="col-md-3 card">
-  			 	<a href=""><img src="img/facility2.png" class="zoom">
-  					<div class="card-content" style="padding: 20px;">
-  					<!-- <h4 class="card-head">hello</h4>					 -->
-  					</div>
-  				</a>
-  			</div><!--col--end-->
-  		
+			<div class="col-md-3 card">
+				<a href=""><img src="img/galleryImages/Picture1.png" class="zoom" width="200">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>  					 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
 
-  		
-
-  	</div><!---row end-->
-
-  	<div class="row">
- 			
-  			<div class="col-md-3 card">
-  				<a href="" ><img src="img/mri.png" class="zoom">
-  				    <div class="card-content" style="padding: 20px;">
-  					<!-- <h4 class="card-head">hello</h4>	 -->
-  				    </div>
-  				</a>  				
-  			</div><!--col--end-->
-
-  			<div class="col-md-3 card">
-  				<a href=""><img src="img/reception.png" class="zoom">
-  					<div class="card-content" style="padding: 20px;">
-  					<!-- <h4 class="card-head">hello</h4>  					 -->
-  					</div>
-  				</a>
-  			</div><!--col--end-->
-
-  			<div class="col-md-3 card">
-  				<a href=""><img src="img/pathology.png" class="zoom" width="200">
-  					<div class="card-content" style="padding: 20px;">
-  					<!-- <h4 class="card-head">hello</h4>  					 -->
-  					</div>
-  				</a>
-  			</div><!--col--end-->
-
-  			<div class="col-md-3 card">
-  			 	<a href=""><img src="img/scan.png" class="zoom">
-  					<div class="card-content" style="padding: 20px;">
-  					<!-- <h4 class="card-head">hello</h4>					 -->
-  					</div>
-  				</a>
-  			</div><!--col--end-->
-  		
-
-  		
-
-  	</div><!---row end-->
-  </div><!---card container end--->
+			<div class="col-md-3 card">
+				<a href=""><img src="img/galleryImages/Picture2.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>					 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
 
 
 
-<footer>
-	
+
+		</div>
+		<!---row end-->
+
+		<div class="row">
+
+			<div class="col-md-3 card">
+				<a href=""><img src="img/mri.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>	 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+			<div class="col-md-3 card">
+				<a href=""><img src="img/reception.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>  					 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+			<div class="col-md-3 card">
+				<a href=""><img src="img/pathology.png" class="zoom" width="200">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>  					 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+			<div class="col-md-3 card">
+				<a href=""><img src="img/scan.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>					 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+
+
+
+		</div>
+		<!---row end-->
+
+		<div class="row">
+
+			<div class="col-md-3 card">
+				<a href=""><img src="img/galleryImages/Picture3.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>	 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+			<!-- <div class="col-md-3 card">
+				<a href=""><img src="img/galleryImages/Picture4.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<h4 class="card-head">hello</h4>  					
+					</div>
+				</a>
+			</div> -->
+			<!--col--end-->
+
+			<div class="col-md-3 card">
+				<a href=""><img src="img/galleryImages/Picture5.png" class="zoom" width="200">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>  					 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+			<div class="col-md-6 card">
+				<a href=""><img src="img/galleryImages/Picture6.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>					 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+
+
+
+		</div>
+		<!---row end-->
+
+		<div class="row">
+
+			<!-- <div class="col-md-3 card">
+				<a href=""><img src="img/galleryImages/Picture7.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<h4 class="card-head">hello</h4>	
+					</div>
+				</a>
+			</div> -->
+			<!--col--end-->
+
+			<div class="col-md-4 card">
+				<a href=""><img src="img/galleryImages/Picture8.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>  					 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+			<div class="col-md-3 card">
+				<a href=""><img src="img/galleryImages/Picture9.png" class="zoom" width="200">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>  					 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+			<div class="col-md-5 card">
+				<a href=""><img src="img/galleryImages/Picture18.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>					 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+
+		</div>
+		<!---row end-->
+
+		<div class="row">
+
+			<div class="col-md-6 card">
+				<a href=""><img src="img/galleryImages/Picture7.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>	 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+			<!-- <div class="col-md-3 card">
+				<a href=""><img src="img/galleryImages/Picture12.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<h4 class="card-head">hello</h4>  					
+					</div>
+				</a>
+			</div> -->
+			<!--col--end-->
+
+			<!-- <div class="col-md-3 card">
+				<a href=""><img src="img/galleryImages/Picture13.png" class="zoom" width="200">
+					<div class="card-content" style="padding: 20px;">
+						<h4 class="card-head">hello</h4>  					
+					</div>
+				</a>
+			</div> -->
+			<!--col--end-->
+
+			<div class="col-md-6 card">
+				<a href=""><img src="img/galleryImages/Picture14.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>					 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+
+
+
+		</div>
+		<!---row end-->
+
+		<div class="row">
+
+			<!-- <div class="col-md-3 card">
+				<a href=""><img src="img/galleryImages/Picture15.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<h4 class="card-head">hello</h4>	
+					</div>
+				</a>
+			</div> -->
+			<!--col--end-->
+
+			<div class="col-md-3 card">
+				<a href=""><img src="img/galleryImages/Picture16.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>  					 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+			<div class="col-md-6 card">
+				<a href=""><img src="img/galleryImages/Picture17.png" class="zoom" width="200">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>  					 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+			<div class="col-md-3 card">
+				<a href=""><img src="img/galleryImages/Picture4.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>					 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+
+
+
+		</div>
+		<!---row end-->
+
+		<div class="row">
+
+			<div class="col-md-3 card">
+				<a href=""><img src="img/galleryImages/Picture10.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>	 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+			<div class="col-md-3 card">
+				<a href=""><img src="img/galleryImages/Picture12.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>  					 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+			<div class="col-md-3 card">
+				<a href=""><img src="img/galleryImages/Picture13.png" class="zoom" width="200">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>  					 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+			<div class="col-md-3 card">
+				<a href=""><img src="img/galleryImages/Picture15.png" class="zoom">
+					<div class="card-content" style="padding: 20px;">
+						<!-- <h4 class="card-head">hello</h4>					 -->
+					</div>
+				</a>
+			</div>
+			<!--col--end-->
+
+
+
+
+		</div>
+		<!---row end-->
+
+
+	</div>
+	<!---card container end--->
+
+
+
+	<footer>
+
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-md-4">
 					<div class="wow fadeInDown" data-wow-delay="0.1s">
-					<div class="widget">
-						<h5>About Parivar Hospital</h5>
-						<p>
-						Great ideologies have greater responsibilities and the goals in healthcare are to safeguard, encourage and at times cultivate the social fabric of the society as a whole.
-						</p>
-					</div>
+						<div class="widget">
+							<h5>About Parivar Hospital</h5>
+							<p>
+								Great ideologies have greater responsibilities and the goals in healthcare are to
+								safeguard, encourage and at times cultivate the social fabric of the society as a whole.
+							</p>
+						</div>
 					</div>
 					<div class="wow fadeInDown" data-wow-delay="0.1s">
-					<div class="widget">
-						<h5>Information</h5>
-						<ul>
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Laboratory</a></li>
-							<li><a href="#">Medical treatment</a></li>
-							<li><a href="#">Terms & conditions</a></li>
-						</ul>
-					</div>
+						<div class="widget">
+							<h5>Information</h5>
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Laboratory</a></li>
+								<li><a href="#">Medical treatment</a></li>
+								<li><a href="#">Terms & conditions</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<div class="col-sm-6 col-md-4">
 					<div class="wow fadeInDown" data-wow-delay="0.1s">
-					<div class="widget">
-						<h5>Hospital center</h5>
-						<p>
-						    Dushehra Garden Near Mandhre Wali mata Temple Amkho, Gwalior M.P.
-						</p>
-						<ul>
-							<li>
-								<span class="fa-stack fa-lg">
-									<i class="fa fa-circle fa-stack-2x"></i>
-									<i class="fa fa-calendar-o fa-stack-1x fa-inverse"></i>
-								</span>24 X 7 Open Emergency Services
-							</li>
-							<li>
-								<span class="fa-stack fa-lg">
-									<i class="fa fa-circle fa-stack-2x"></i>
-									<i class="fa fa-phone fa-stack-1x fa-inverse"></i>
-								</span>9584956700, 9522356600
-							</li>
-							<li>
-								<span class="fa-stack fa-lg">
-									<i class="fa fa-circle fa-stack-2x"></i>
-									<i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
-								</span>info@parivarhospital.com
-							</li>
+						<div class="widget">
+							<h5>Hospital center</h5>
+							<p>
+								Dushehra Garden Near Mandhre Wali mata Temple Amkho, Gwalior M.P.
+							</p>
+							<ul>
+								<li>
+									<span class="fa-stack fa-lg">
+										<i class="fa fa-circle fa-stack-2x"></i>
+										<i class="fa fa-calendar-o fa-stack-1x fa-inverse"></i>
+									</span>24 X 7 Open Emergency Services
+								</li>
+								<li>
+									<span class="fa-stack fa-lg">
+										<i class="fa fa-circle fa-stack-2x"></i>
+										<i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+									</span>9584956700, 9522356600
+								</li>
+								<li>
+									<span class="fa-stack fa-lg">
+										<i class="fa fa-circle fa-stack-2x"></i>
+										<i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+									</span>info@parivarhospital.com
+								</li>
 
-						</ul>
-					</div>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<div class="col-sm-6 col-md-4">
 					<div class="wow fadeInDown" data-wow-delay="0.1s">
-					<div class="widget">
-						<h5>Our location</h5>
-						<p>Dushehra Garden Near Mandhre Wali mata Temple Amkho, Gwalior M.P.</p>		
-						
-					</div>
+						<div class="widget">
+							<h5>Our location</h5>
+							<p>Dushehra Garden Near Mandhre Wali mata Temple Amkho, Gwalior M.P.</p>
+
+						</div>
 					</div>
 					<div class="wow fadeInDown" data-wow-delay="0.1s">
-					<div class="widget">
-						<h5>Follow us</h5>
-						<ul class="company-social">
+						<div class="widget">
+							<h5>Follow us</h5>
+							<ul class="company-social">
 								<li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
 								<li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
 								<li class="social-google"><a href="#"><i class="fa fa-google-plus"></i></a></li>
 								<li class="social-vimeo"><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
 								<li class="social-dribble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
-						</ul>
-					</div>
-					</div>
-				</div>
-			</div>	
-		</div>
-
-<!---- lst footer ------>
-
-	<div class="sub-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="wow fadeInLeft" data-wow-delay="0.1s">
-					<div>
-					  <center>
-					  	<p>&copy; - 2021 by <a href="https://accordify.co.in/" class="footer-link">Accordify Websol Private Limited</a> | Parivar Super Speciality Hospital & Research Centre.</p>
-					  </center>
-					  	
-					  
-					</div>
-					</div>
-				</div>
-				
-                    
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
-	
-<!---- lst footer ------>				
+		</div>
+
+		<!---- lst footer ------>
+
+		<div class="sub-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="wow fadeInLeft" data-wow-delay="0.1s">
+							<div>
+								<center>
+									<p>&copy; - 2021 by <a href="https://accordify.co.in/" class="footer-link">Accordify
+											Websol Private Limited</a> | Parivar Super Speciality Hospital & Research
+										Centre.</p>
+								</center>
+
+
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+		<!---- lst footer ------>
 		</div>
 		</div>
 	</footer>
@@ -375,9 +611,9 @@
 	<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 
 	<!-- Core JavaScript Files -->
-    <script src="js/jquery.min.js"></script>	 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/jquery.scrollTo.js"></script>
 	<script src="js/jquery.appear.js"></script>
@@ -385,9 +621,10 @@
 	<script src="plugins/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/nivo-lightbox.min.js"></script>
-    <script src="js/custom.js"></script>
+	<script src="js/custom.js"></script>
 
 
 
 </body>
+
 </html>
