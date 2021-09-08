@@ -14,7 +14,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Mulish', sans-serif;
 	font-weight: 300;
     color: #666;
     background-color: #ddd;
@@ -2080,12 +2080,14 @@ a.btn:focus{
 /*=======About=========*/
 .abt1{
 		width: 500px;
-
 	}
+.heights{
+	width: 440px;
+	height: 500px;
+}
 	@media(max-width: 600px){
 		.abt1{
 		width: 300px;
-
 	}
 }
 .bg-cont{
@@ -2119,11 +2121,17 @@ a.btn:focus{
 		text-align: left;
 	}
 
+/*=======Departments=========*/
+
+.d-content{
+	
+}	
+
 /*gallery*/
 
 .gallery-bg{
     		background-image: url("img/banner_doctor.jpg"); 
-    		height: 500px;
+    		height: 400px;
     		background-size: cover;
     		background-repeat: no-repeat; 
     		padding-top: 200px;
